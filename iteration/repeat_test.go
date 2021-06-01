@@ -20,7 +20,7 @@ func BenchmarkRepeat(b *testing.B) {
 	}
 }
 
-func ExampleRepeat()  {
+func ExampleRepeat() {
 	result := Repeat("b", 10)
 	fmt.Println(result)
 	// Output: bbbbbbbbbb
